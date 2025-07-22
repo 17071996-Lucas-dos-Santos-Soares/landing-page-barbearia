@@ -1,14 +1,17 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   outline: none;
   box-sizing: border-box;
 }
+body{
+  height: 900px;
+}
 ::selection{
   background-color: #E67E22;
   color: #fff;
 }
+
 .navbar {
   background: transparent;
 }
@@ -69,7 +72,9 @@ body, html {
 .section-1 a {
   background: transparent;
   border-radius: 30px;
-  padding: 10px;
+  width: 60px;
+  height: 60px;
+  padding: 8px;
   margin-left: 10px;
   text-decoration: none;
   color: #D35400;
@@ -93,7 +98,8 @@ body, html {
 .section-2 h2 {
   font-size: 50px;
   padding-top: 40px;
-  color: #D35400;
+  color: #e67e22;
+  filter: drop-shadow(2px 2px 20px #d35400);
 }
 
 .section-2 p {
@@ -232,7 +238,7 @@ body, html {
   float: left;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: #D35400;
+  background: #121212;
 }
 
 .call-to-action h3 {
@@ -244,12 +250,13 @@ body, html {
 
 .call-to-action a{
   text-decoration: none;
-  background: #ffffff;
+  background: #E67E22;
   padding: 8px;
   border-radius: 30px;
   border-top-right-radius: 0px;
-  color: #121212;
+  color: #fff;
   font-size: 20px;
+  transition: all 0.2s ease-in-out;
 }
 .call-to-action i{
   color: #01C565;
@@ -261,8 +268,10 @@ body, html {
 }
 .call-to-action a:hover {
   transition: all 0.2s ease-in-out;
-  background: #121212;
+  background: #d35400;
+  filter: drop-shadow(2px 2px 20px #d35400);
   color: #ffffff;
+  transition: all 0.2s ease-in-out;
 }
 
 .section-4 {
@@ -376,11 +385,14 @@ body, html {
   }
 
   .section-1 a{
-    font-size: 20px;
+    font-size: 18px;
+    width: 173px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2px;
+    margin: 0 auto;
   }
 
   .section-2{
