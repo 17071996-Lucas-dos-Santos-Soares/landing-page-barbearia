@@ -12,13 +12,10 @@ body{
   color: #fff;
 }
 
-.navbar {
-  background: transparent;
-}
 .navbar-nav{
   margin-left: -160px;
 }
-.navbar-brand img {
+.navbar-brand img{
   width: 80px;
   height: 80px;
   background-color: #ffffff;
@@ -29,6 +26,9 @@ body{
   font-size: 20px;
   color: #ffffff;
   text-shadow: 2px 2px 2px #00000066;
+  background-color: rgb(18, 18, 18);
+  border-radius: 30px;
+  margin-left: 8px;
 }
 
 .nav-link:hover {
