@@ -372,7 +372,7 @@ body, html {
     height: auto;
     background-image: url(../img/Banner/bg.webp);
     background-size: 100% 100%;
-    background-position: 100%, 104%;
+    background-position: 100%, 100%;
   }
 
   .section-1 h1{
@@ -408,11 +408,42 @@ body, html {
 
   .section-2 img{
     width: 200px;
+    height: auto;
     margin-left: 70px;
   }
 
   .section03 h3{
     font-size: 30px;
+  }
+  .card-back-1{
+    background-position: 100%, 100%;
+    background-image: url(../img/Serviços/barba-mobile.webp);
+  }
+  .card-back-2{
+    background-position: 100%, 100%;
+    background-image: url(../img/Serviços/corte-mobile.webp);
+  }
+  .card-back-3{
+    background-position: 100%, 100%;
+    background-image: url(../img/Serviços/dia-noivo-mobile.webp);
+
+  }
+  .card-back-4{
+    background-position: 100%, 100%;
+    background-image: url(../img/Serviços/escova-progressiva-mobile.webp);
+  }
+  .card-back-5{
+    background-position: 100%, 100%;
+    background-image: url(../img/Serviços/sobramcelha-mobile.webp);
+  }
+  .card-back-6{
+    background-position: 100%, 100%;
+    background-image: url(../img/Serviços/corte--masc-mobile.webp);
+  }
+  .card-custom p{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .call-to-action h3{
     font-size: 20px;
