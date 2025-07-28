@@ -282,7 +282,13 @@ body, html {
   padding-bottom: 50px;
   background: #E67E22;
 }
-
+.section-5 li{
+  list-style: none;
+  font-family: "Raleway";
+  font-weight: 300;
+  text-align: left;
+  font-size: 16px;
+}
 .section-4 h4 {
   font-size: 50px;
   color: #ffffff;
@@ -456,5 +462,8 @@ body, html {
   }
   .section-4 h4{
     font-size: 30px;
+  }
+  .section-5{
+    margin: 0 auto;
   }
 }
