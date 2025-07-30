@@ -4,6 +4,9 @@
   outline: none;
   box-sizing: border-box;
 }
+.wave{
+  margin-top: -87px;
+}
 ::-webkit-scrollbar{
   width: 10px;
 }
