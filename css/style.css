@@ -4,8 +4,13 @@
   outline: none;
   box-sizing: border-box;
 }
-body{
-  height: 900px;
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: #E67E22;
+  border-radius: 30px;
 }
 ::selection{
   background-color: #E67E22;
