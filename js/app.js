@@ -8,12 +8,12 @@ revelar.reveal('.title-1',{
 revelar.reveal('.paragraph-1',{
     durantion: 2000,
     distance: '90px',
-    delay:500,
+    delay:600,
     origin: 'left'
 })
 revelar.reveal('.btn-1',{
     durantion: 2000,
-    delay: 500,
+    delay: 700,
     origin: 'left',
     distance: '90px'
 })
@@ -25,3 +25,5 @@ const cliente = [
         endereço: ': R. Érico Neves de Melo, 15b - Vila Miriam'
     }
 ]
+
+//chat bot
