@@ -153,10 +153,8 @@ body, html {
     width: 200px;
     height: 200px;
     border-radius: 200px;
-    margin-bottom: 10px;
-    gap: 1rem;
+    margin-left: 150px;
     transition: all .3s ease-in-out;
-    margin-left: 200px;
 }
 .galeria img:hover{
     transition: all .3s ease-in-out;
