@@ -145,12 +145,21 @@ body, html {
     width: 100%;
     background: #121212;
 }
+.galeria a{
+  color: #fff;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
 .galeria img{
     width: 200px;
     height: 200px;
-    border-radius: 200px;
+    border-radius: 50%;
     margin-left: 150px;
     transition: all .3s ease-in-out;
+    padding-top: 20px;
 }
 .galeria img:hover{
     transition: all .3s ease-in-out;
@@ -172,7 +181,7 @@ body, html {
   margin-top: -5px;
 }
 .card-custom {
-  background: #121212;
+  background: #121212a5;
   color: #ffffff;
   border: none;
   border-radius: 1rem;
@@ -463,6 +472,15 @@ body, html {
     height: auto;
     margin-left: 70px;
   }
+  .galeria a{
+  color: #fff;
+  font-size: 25px;
+  background-color: #D35400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+}
   .galeria img {
   width: 100px;
   height: 100px;
@@ -521,16 +539,19 @@ body, html {
   .section-5{
     margin: 0 auto;
   }
-  .section-6 h4{
-  font-size: 20px;
-  color: #121212;
+  .section-6 h3{
+  font-size: 30px;
+  color: #fff;
 }
 .wave{
   width: 100%;
   margin: 0;
 }
 }
-
+.contact-area h3{
+  font-size: 30px;
+  color: #E67E22;
+}
 .title-1,.paragraph-1,.btn-1{
   visibility: hidden;
 }
